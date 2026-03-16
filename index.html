@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Elehanssy ERP</title>
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; max-width: 900px; margin: 48px auto; color: #111; padding: 0 16px; }
+    h1,h2 { color: #0b4275 }
+    pre { background:#f6f8fa; padding:12px; border-radius:6px }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Elehanssy ERP</h1>
+  <p><strong>Last updated:</strong> 2026-03-15</p>
+
+  <p>This Privacy Policy describes how Elehanssy ERP (the "App"), developed by Ahmed Latif ("we", "us"), collects, uses, stores, and shares data when users enable Google Drive backup features.</p>
+
+  <h2>1. Information We Access</h2>
+  <ul>
+    <li>When you authorize Google Drive backup, the App requests access to your Google Drive scope: <code>https://www.googleapis.com/auth/drive.file</code>.</li>
+    <li>This allows the App to create and manage files it creates in your Drive (backup files). The App does not request broad Drive or Gmail read access.</li>
+  </ul>
+
+  <h2>2. Purpose of Access</h2>
+  <ul>
+    <li>Create timestamped database backups in your Google Drive when you explicitly request a backup.</li>
+    <li>Allow users to restore the application database from backups stored in their Drive.</li>
+  </ul>
+
+  <h2>3. Data Retention and Storage</h2>
+  <ul>
+    <li>Backup files are stored directly in your Google Drive; we do not upload these backup files to any third-party servers.</li>
+    <li>Locally, the App stores: an OAuth token (access + refresh token) in the application user data folder to enable automatic token refresh and uploads.</li>
+    <li>Tokens are stored as a JSON file named <code>google_drive_tokens.json</code> under the application user data directory.</li>
+  </ul>
+
+  <h2>4. Sharing and Disclosure</h2>
+  <ul>
+    <li>We will not share your backup files or account tokens with third parties.</li>
+    <li>If you choose to share a backup file from Drive explicitly, it follows Google Drive sharing rules.</li>
+  </ul>
+
+  <h2>5. How to Revoke Access</h2>
+  <ul>
+    <li>You can revoke the App’s access from your Google Account → Security → Third-party apps with account access.</li>
+    <li>The App also provides a sign-out / revoke option in Settings (if enabled).</li>
+  </ul>
+
+  <h2>6. Contact</h2>
+  <p>For privacy questions, contact: <a href="mailto:ahmedlatif.code@gmail.com">ahmedlatif.code@gmail.com</a></p>
+
+  <hr />
+  <p>Hosting note: host this policy at a stable URL (example: <em>https://your-domain.com/privacy.html</em>) and add that domain as an authorized domain in Google Cloud Console during verification.</p>
+</body>
+</html>
